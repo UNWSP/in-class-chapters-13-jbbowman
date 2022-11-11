@@ -21,7 +21,10 @@ public class TwoSeparateExceptions {
             System.out.println("Arithmetic operation not allowed");
 
         } catch (Exception e) {
-            System.out.printf("The following error occurred %s", e);
+            System.out.printf("The following error occurred %s\n", e);
+
+        } finally {
+            System.out.println("Have a nice day!")
         }
     }
 }
