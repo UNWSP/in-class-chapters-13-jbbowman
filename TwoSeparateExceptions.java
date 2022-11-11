@@ -24,7 +24,7 @@ public class TwoSeparateExceptions {
             System.out.printf("The following error occurred %s\n", e);
 
         } finally {
-            System.out.println("Have a nice day!")
+            System.out.println("Have a nice day!");
         }
     }
 }
